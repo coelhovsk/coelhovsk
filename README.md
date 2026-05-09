@@ -24,8 +24,8 @@ DOI: `10.5753/latinoware.2023.236535` · Pages 170–173
 ---
 
 ### [Detecção de Piscadas Baseada em Aprendizado de Máquina para Controle de Dispositivos por Pessoas com Deficiência Motora Severa](https://sol.sbc.org.br/index.php/latinoware/article/view/40979)
-**Latinoware 2024 — XXI Congresso Latino-Americano (SBC)**
-*Published 2024 — age 16*
+**Latinoware 2025 — XXI Congresso Latino-Americano (SBC)**
+*Published 2025 — age 17*
 
 Evolution of the 2023 system: replaced fixed EAR threshold with ML classifiers trained on physiological data from 7 volunteers (~100k labeled frames at 15fps). Compared Decision Tree, KNN, Logistic Regression, and Random Forest across two feature extraction strategies (raw EAR vs. 19 MediaPipe facial keypoints). Leave-One-Out cross-validation for generalization across individuals. Random Forest achieved **F1: 0.998** vs. fixed-threshold baseline **F1: 0.919**.
 
