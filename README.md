@@ -2,7 +2,7 @@
 
 Backend engineer and published researcher. Building production systems and doing applied research in computer vision and ML since age 15.
 
-Currently working full-time at **BioWatts** (Cascavel, BR) designing a CPQ system for photovoltaic project dimensioning — from domain architecture to event-driven infrastructure.
+Currently working full-time at **BioWatts** (Cascavel, BR), co-developing a CPQ system for photovoltaic project dimensioning alongside another senior developer — from domain architecture to event-driven infrastructure.
 
 ---
 
@@ -24,8 +24,8 @@ DOI: `10.5753/latinoware.2023.236535` · Pages 170–173
 ---
 
 ### [Detecção de Piscadas Baseada em Aprendizado de Máquina para Controle de Dispositivos por Pessoas com Deficiência Motora Severa](https://sol.sbc.org.br/index.php/latinoware/article/view/40979)
-**Latinoware 2025 — XXI Congresso Latino-Americano (SBC)**
-*Published 2025 — age 17*
+**Latinoware 2025 — XXII Congresso Latino-Americano (SBC)**
+*Published 2025*
 
 Evolution of the 2023 system: replaced fixed EAR threshold with ML classifiers trained on physiological data from 7 volunteers (~100k labeled frames at 15fps). Compared Decision Tree, KNN, Logistic Regression, and Random Forest across two feature extraction strategies (raw EAR vs. 19 MediaPipe facial keypoints). Leave-One-Out cross-validation for generalization across individuals. Random Forest achieved **F1: 0.998** vs. fixed-threshold baseline **F1: 0.919**.
 
@@ -44,7 +44,7 @@ Applied OSEMN lifecycle across two supervised learning tasks:
 
 **CPQ System — Solar Energy Dimensioning Platform**
 
-A configurable quoting and dimensioning engine for photovoltaic projects, built from the ground up with end-to-end ownership.
+A configurable quoting and dimensioning engine for photovoltaic projects. I co-develop this system alongside another senior developer on the team, sharing architecture decisions and code review.
 
 - **Django + PostgreSQL** — domain modeling, ORM, migrations, configurable business rule engine
 - **RabbitMQ + Celery** — async task processing, Celery Beat scheduled jobs, worker fleet monitored with Flower
@@ -53,6 +53,8 @@ A configurable quoting and dimensioning engine for photovoltaic projects, built 
 - **Third-party integrations** — reverse engineering undocumented distributor REST endpoints, web scraping pipelines, automated query automation against internal APIs
 - **Document generation** — transforming dimensioner output into formal proposal and budget documents
 - **CRM integration** *(in progress)* — decoupled via event contracts
+
+Development is conducted jointly with the team, assisted by AI agents (Claude Code) under adversarial review discipline: defining scope and architecture, writing technical instructions, reviewing Pull Requests, and validating correctness against the real source code.
 
 Key engineering challenges: isolating volatile third-party contracts from the core domain model; building a configurable rules engine adjustable by non-technical users; ensuring delivery guarantees across the async pipeline.
 
@@ -77,7 +79,7 @@ Other         API reverse engineering, web scraping, PDF generation
 
 ## Other
 
-**OBI 2023** — 2× finalist, Brazilian Informatics Olympiad (programming track)
+**OBI** — 2× national round, Brazilian Informatics Olympiad (programming track), 2023 and 2025
 
 ---
 
